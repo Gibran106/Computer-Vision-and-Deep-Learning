@@ -1,0 +1,10 @@
+{
+  "video": "D:\\Vision\\frame_video\\inputs\\box_merah.mp4",
+  "decoded_frames": 5492,
+  "fps": 29.96414341760006,
+  "requested_count": 100,
+  "saved_count": 100,
+  "start_seconds": 0.0,
+  "end_seconds": null,
+  "note": "Waktu dari index/FPS adalah perkiraan untuk video variable-frame-rate."
+}

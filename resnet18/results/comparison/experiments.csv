@@ -1,0 +1,16 @@
+architecture,mode,best_val_accuracy,best_epoch,epochs_to_90_percent,training_seconds,checkpoint,trainable_params,total_params,epochs_run
+mobilenet_v3_small,feature,1.0,1,1,16.5948542000001,/home/akmal/Documents/P2 - Transfer Learning/mobilenet_v3_small/models/feature.pth,592898,1519906,10
+mobilenet_v3_small,partial,1.0,1,1,15.548959491000005,/home/akmal/Documents/P2 - Transfer Learning/mobilenet_v3_small/models/partial.pth,943442,1519906,10
+mobilenet_v3_small,scratch,0.5,1,,16.120030723000127,/home/akmal/Documents/P2 - Transfer Learning/mobilenet_v3_small/models/scratch.pth,1519906,1519906,10
+mobilenet_v3_large,feature,1.0,1,1,15.882336760000044,/home/akmal/Documents/P2 - Transfer Learning/mobilenet_v3_large/models/feature.pth,1232642,4204594,10
+mobilenet_v3_large,partial,1.0,1,1,16.02003977100003,/home/akmal/Documents/P2 - Transfer Learning/mobilenet_v3_large/models/partial.pth,2185522,4204594,10
+mobilenet_v3_large,scratch,0.5,1,,18.277407821999986,/home/akmal/Documents/P2 - Transfer Learning/mobilenet_v3_large/models/scratch.pth,4204594,4204594,10
+efficientnet_b0,feature,1.0,1,1,16.95156096400001,/home/akmal/Documents/P2 - Transfer Learning/efficientnet_b0/models/feature.pth,2562,4010110,10
+efficientnet_b0,partial,1.0,1,1,17.016948960000036,/home/akmal/Documents/P2 - Transfer Learning/efficientnet_b0/models/partial.pth,1131954,4010110,10
+efficientnet_b0,scratch,1.0,8,7,21.43686971699981,/home/akmal/Documents/P2 - Transfer Learning/efficientnet_b0/models/scratch.pth,4010110,4010110,10
+resnet18,feature,1.0,2,1,16.406385996000154,/home/akmal/Documents/P2 - Transfer Learning/resnet18/models/feature.pth,1026,11177538,10
+resnet18,partial,1.0,1,1,16.73921772299991,/home/akmal/Documents/P2 - Transfer Learning/resnet18/models/partial.pth,8394754,11177538,10
+resnet18,scratch,1.0,1,1,19.495394552000107,/home/akmal/Documents/P2 - Transfer Learning/resnet18/models/scratch.pth,11177538,11177538,10
+resnet50,feature,1.0,1,1,19.46241381799996,/home/akmal/Documents/P2 - Transfer Learning/resnet50/models/feature.pth,4098,23512130,10
+resnet50,partial,1.0,1,1,20.573097452999946,/home/akmal/Documents/P2 - Transfer Learning/resnet50/models/partial.pth,14968834,23512130,10
+resnet50,scratch,1.0,2,2,27.292695128999867,/home/akmal/Documents/P2 - Transfer Learning/resnet50/models/scratch.pth,23512130,23512130,10

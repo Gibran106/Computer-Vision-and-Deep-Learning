@@ -1,0 +1,4 @@
+architecture,mode,best_val_accuracy,best_epoch,epochs_to_90_percent,training_seconds,checkpoint,trainable_params,total_params,epochs_run
+resnet18,feature,1.0,2,1,16.406385996000154,models/feature.pth,1026,11177538,10
+resnet18,partial,1.0,1,1,16.73921772299991,models/partial.pth,8394754,11177538,10
+resnet18,scratch,1.0,1,1,19.495394552000107,models/scratch.pth,11177538,11177538,10

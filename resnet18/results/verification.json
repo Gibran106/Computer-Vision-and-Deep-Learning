@@ -1,0 +1,62 @@
+{
+  "architecture": "resnet18",
+  "device": "cpu",
+  "train_count": 156,
+  "validation_count": 36,
+  "labels": {
+    "box_cokelat": 0,
+    "box_merah": 1
+  },
+  "confusion_matrix_axes": "rows=actual, columns=predicted",
+  "syntax_and_artifacts_verified": true,
+  "checks": [
+    {
+      "mode": "feature",
+      "checkpoint_epoch": 2,
+      "validation_accuracy_cpu": 1.0,
+      "confusion_matrix": [
+        [
+          18,
+          0
+        ],
+        [
+          0,
+          18
+        ]
+      ],
+      "matches_training_report": true
+    },
+    {
+      "mode": "partial",
+      "checkpoint_epoch": 1,
+      "validation_accuracy_cpu": 1.0,
+      "confusion_matrix": [
+        [
+          18,
+          0
+        ],
+        [
+          0,
+          18
+        ]
+      ],
+      "matches_training_report": true
+    },
+    {
+      "mode": "scratch",
+      "checkpoint_epoch": 1,
+      "validation_accuracy_cpu": 1.0,
+      "confusion_matrix": [
+        [
+          18,
+          0
+        ],
+        [
+          0,
+          18
+        ]
+      ],
+      "matches_training_report": true
+    }
+  ]
+}
